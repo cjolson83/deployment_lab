@@ -14,4 +14,4 @@ app.get('/', (req,res) => {
 })
 
 
-app.listen(4001, console.log('Server running on 4001'))
+app.listen(4000, console.log('Server running on 4000'))
