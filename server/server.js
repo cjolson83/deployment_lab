@@ -10,9 +10,8 @@ app.use(express.static('public'))
 
 
 app.get('/', (req,res) => {
-    // console.log(__dirname)
-    res.stuatus(200).sendFile(path.join(__dirname, '../public/index.html'))
+    res.status(200).sendFile(path.join(__dirname, '../public/index.html'))
 })
 
 
-app.listen(4000, console.log('Server running on 4000'))
+app.listen(4001, console.log('Server running on 4001'))
